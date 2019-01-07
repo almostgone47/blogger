@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
 
+gem 'sorcery'
 gem 'paperclip', '~> 6.1'
 gem 'rmagick', '~> 2.15', '>= 2.15.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
